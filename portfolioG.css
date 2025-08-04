@@ -36,7 +36,6 @@
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
-    /* gap: 30px; */
 }
 .navbar1 nav ul {
     display: flex;
@@ -111,7 +110,6 @@ body .overview{
   padding: 0.8rem 1.4rem;
   border-radius: 10px;
   font-size: 1rem;
-  /* margin-right: 1rem; */
   transition: 0.3s;
   text-decoration: none;
   position: relative;
@@ -137,8 +135,6 @@ body .overview{
     transition: 0.4s ease;
 }
 .p1{
-    /* border: dotted;
-    border-color: white; */
     color: white;
     border-width: 2px;
     position: relative;
@@ -246,10 +242,8 @@ body .edu{
     height: 100px;
     width: 50%;
     margin-left: 55px;
-    /* background-color: yellow; */
 }
 .one,.two,.three,.h2{
-    /* background-color: yellowgreen; */
     margin-top: 50px;
     font-size: 15px;
     color: #ffffff;
@@ -289,7 +283,6 @@ body .skills{
 }
 .container-card{
     width: 600px;
-    /* border: 2px solid white; */
     margin-left: 270px;
     margin-top: 20px;
     font-size: 25px;
@@ -299,9 +292,7 @@ body .skills{
     margin-top: 30px;
     color: #ffffff;
     text-align: left;
-    /* border: 2px solid white; */
     padding: 20px;
-    
 }
 .skill span{
     margin-left: 5px;
@@ -309,13 +300,12 @@ body .skills{
 .bar{
     width: 100%;
     height: 10px;
-    background-color: #ffffff;
+    background-color: #000000;
     border-radius: 10px;
 }
 .fill{
-    /* width: 100%; */
     height: 10px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 204, 0);
     border-radius: 10px;
 }
 .skills-card{
@@ -324,7 +314,7 @@ body .skills{
     position: relative;
     left: 200px;
     width: 550px;
-    
+    background-color: rgb(72, 72, 72);
 }
 body .contact{
     background: linear-gradient(175deg, #636363 35px,#000000 85%);
