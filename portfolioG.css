@@ -370,14 +370,6 @@ body .skills{
     background-color: rgb(255, 204, 0);
     border-radius: 10px;
 }
-.skills-card{
-    /* border: 2px solid white;
-    padding: 5px;
-    position: relative;
-    left: 200px;
-    width: 550px;
-    background-color: rgb(72, 72, 72); */
-}
 body .contact{
     background: linear-gradient(175deg, #636363 35px,#000000 85%);
     color: #ffffff;
