@@ -19,7 +19,6 @@
     top: 0;
     left: 0;
     right: 0;
-    /* padding: 1rem 0; */
     z-index: 1000;
     transition: all 0.3s ease;
 }
@@ -342,8 +341,6 @@ body .skills{
 }
 .container-card{
     width: 50%;
-    /* margin-left: 270px;
-    margin-top: 20px; */
     font-size: 25px;
     padding: 10px;
     position: relative;
