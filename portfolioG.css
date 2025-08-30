@@ -60,13 +60,33 @@ nav ul a{
     right: 50px;
 }
 nav ul a:hover{
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(122, 122, 122);
     color: rgb(0, 0, 0);
     transition: all 0.3s ease;
     border-radius: 25px; 
     margin-right: 10px;
-    box-shadow: 5px 3px 3px rgb(255, 255, 255);
-} 
+    box-shadow: 4px 3px 3px rgb(83, 83, 83);
+}
+@media screen and (max-width: 640px) {
+    .header{
+        width: 100%;
+        height: 8%;
+        background-color: #555;
+        padding: 10px;
+    }
+    .name{
+        margin-left: 550px;
+    }
+    .navbar1 {
+        position: relative;
+        top: 50%;
+        right: 400px;
+    }
+    .nav-link{
+        color: #000000;
+        font-size: larger;
+    }
+}
 body .overview{
     display: flex;
     align-items: center;
@@ -82,14 +102,14 @@ body .overview{
 }
 .h11 ,.h12{ 
     position: relative;
-    top: -130px;
+    bottom: 25px;
     right: -500px;
     margin-top: 10px;
     padding: -10px;
     font-size: 30px;
     display: flex;
     display: inline-block;
-    width: 400px;
+    width: 59%;
     height: 200%;
     display: flex;
     flex-wrap: wrap;
@@ -113,7 +133,7 @@ body .overview{
   transition: 0.3s;
   text-decoration: none;
   position: relative;
-  top: 35px;
+  top: 150px;
   right: 30px;
   background-color: rgb(81, 76, 76);
   color: white;
@@ -136,16 +156,16 @@ body .overview{
 }
 .p1{
     color: white;
-    border-width: 2px;
+    width: 75%;
     position: relative;
-    top: -100px;
-    right: -400px;
+    top: 15px;
+    right: -450px;
     text-align: center;
 }
 .overview img{
-    border-radius: 300px;
-    width: 360px;
-    height: 360px;
+    border-radius: 200px;
+    width: 380px;
+    height: 380px;
     box-shadow: -5px 5px 5px 5px  rgb(189, 189, 189);
 }
 .social-icons {
@@ -169,6 +189,42 @@ body .overview{
   background-color: #555;
   transform: scale(1.1);
 }
+@media(max-width:640px) {
+    body .overview{
+        width: 200%;
+        min-height: 100vh;
+    }
+    .h11{
+        position: absolute;
+        left: 75%;
+        top: 20%;
+    }
+    .h12{
+        position: absolute;
+        left: 73%;
+        top: 27%;
+    }
+    .hii hr{
+        display: none;
+    }
+    .hii img{
+        margin-left: 65%;
+        margin-top: 20%;
+        width: 320px;
+        height: 320px;
+    }
+    .p1{
+        position: relative;
+        right: -24%;
+        margin-top: 130%;
+        width: 450px;
+    }
+    .hero-buttons,.btn{
+        position: relative;
+        right: 15%;
+        top: 110px;
+    }
+}
 body .about{
     width: 100%;
     min-height: 100vh;
@@ -180,17 +236,20 @@ body .about{
     height: 360px;
     border-radius: 200px;
     box-shadow: 5px 5px 5px 5px  rgb(189, 189, 189);
-    position: relative;
-    left: 65%;
 }
 .mypic h1{
     position: relative;
-    left: 55px;
-    bottom: 230px;
+    right: 28px;
+    bottom: 50px;
     color: rgb(0, 0, 0);
-    width: 200px;
-    font-size: 35px;
-    color: #232323;
+    font-size: 30px;
+}
+ .mypic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50%;
+    align-items: center;
 }
 .s1{
     font-size: 20px;
@@ -282,11 +341,14 @@ body .skills{
     color: #ffffff;
 }
 .container-card{
-    width: 600px;
-    margin-left: 270px;
-    margin-top: 20px;
+    width: 50%;
+    /* margin-left: 270px;
+    margin-top: 20px; */
     font-size: 25px;
     padding: 10px;
+    position: relative;
+    left: 25%;
+    top: 30%;
 }
 .container-card .skill{
     margin-top: 30px;
@@ -309,12 +371,12 @@ body .skills{
     border-radius: 10px;
 }
 .skills-card{
-    border: 2px solid white;
+    /* border: 2px solid white;
     padding: 5px;
     position: relative;
     left: 200px;
     width: 550px;
-    background-color: rgb(72, 72, 72);
+    background-color: rgb(72, 72, 72); */
 }
 body .contact{
     background: linear-gradient(175deg, #636363 35px,#000000 85%);
@@ -322,6 +384,7 @@ body .contact{
 }
 .contact{
     width: 100%;
-    min-height: 40vh;
+    min-height: 30vh;
     text-align: center;
-}           
+    justify-content: center;
+}
